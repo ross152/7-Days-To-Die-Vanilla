@@ -79,11 +79,31 @@
 		<window_group name="dragAndDrop">
 			<window name="dragAndDropItemStack" />
 		</window_group>
-		
+
+<!-- <<< SMX v15b104e r08 START - BY SIRILLION >>> -->
+
 		<window_group name="compass">
-			<window name="windowCompass" />
+			<window name="SMXCompass1" />									<!-- Swappable frame. Change between different compass frames by changing the number. Choose between 1-2 -->
+																										<!-- 1: Standard Compass -->
+																										<!-- 2: Medieval Compass - IN DEVELOPMENT, NOT INCLUDED IN THIS VERSION -->
+<!--		<window name="windowCompass" /> -->
+			<window name="SMXQuestTracker" anchor="RightTop" />
+			<window name="SMXBuffFrame4" anchor="LeftBottom" />				<!-- Swappable frame. Change between different buff frames by changing the number. Choose between 1-4 -->
+																										<!-- 1: Standard Buff Frames -->
+																										<!-- 2: Standard Buff Frames - Small -->
+																										<!-- 3: Improved Buff Frames -->
+																										<!-- 4: Improved Buff Frames - Small -->
+			<window name="SMX" anchor="RightTop" />
+			<window name="SMXLevelXPUF1" />									<!-- Swappable frame. Change between different Level/XP displays by changing the number. Choose between 1-2 -->
+																										<!-- 1: Standard Level/XP Frame -->
+																										<!-- 2: Medieval Level/XP Frame - IN DEVELOPMENT, NOT INCLUDED IN THIS VERSION -->
+
+			<window name="SMXDayTimeFrame" />
+<!--		<window name="SMXminiMap" /> -->
 		</window_group>
-		
+
+<!-- <<< SMX v15b104e r08 END - BY SIRILLION >>> -->
+
 		<window_group name="toolTip">
 			<window name="toolTip" />
 			<window name="popupMenu" />
@@ -100,14 +120,28 @@
 		<window_group name="timer">
 			<window name="windowTimer"/>
 		</window_group>
-		
+
+<!-- <<< SMX v15b104e r08 START - BY SIRILLION >>> -->
+
 		<window_group name="toolbelt">
-			<window name="windowToolbelt" anchor="CenterBottom" />
-			<window name="HUDLeftStatBars" anchor="LeftBottom" />
-			<window name="HUDRightStatBars" anchor="RightBottom" />
-			<window name="windowQuestTracker" anchor="RightTop" />
+			<window name="SMXToolbelt1" anchor="CenterBottom" />			<!-- Swappable frame. Change between different tool belts by changing the number. Choose between 1-2 -->
+																										<!-- 1: Standard Tool Belt -->
+																										<!-- 2: Medieval Tool Belt - IN DEVELOPMENT, NOT INCLUDED IN THIS VERSION -->
+<!--		<window name="windowToolbelt" anchor="CenterBottom" /> -->
+			<window name="SMXUnitFrame1" anchor="LeftBottom" />				<!-- Swappable frame. Change between different unit frames by changing the number. Choose between 1-2 -->
+																										<!-- 1: Standard Unit Frame -->
+																										<!-- 2: Medieval Unit Frame - IN DEVELOPMENT, NOT INCLUDED IN THIS VERSION -->
+<!--		<window name="HUDLeftStatBars" anchor="LeftBottom" /> -->
+			<window name="SMXHudOther" anchor="RightBottom" />
+<!--		<window name="HUDRightStatBars" anchor="RightBottom" /> -->
+<!--		<window name="windowQuestTracker" anchor="RightTop" /> -->
+			<window name="SMXTempFrameUF1" />								<!-- Swappable frame. Change between different temperature displays by changing the number. Choose between 1-2 -->
+																										<!-- 1: Standard Temp Frame -->
+																										<!-- 2: Medieval Temp Frame - IN DEVELOPMENT, NOT INCLUDED IN THIS VERSION -->
 		</window_group>
-		
+
+<!-- <<< SMX v15b104e r08 END - BY SIRILLION >>> -->
+
 		<window_group name="vehicle" controller="XUiC_VehicleWindowGroup">
 			<window name="windowVehicle"/>
 			<window name="windowNonPagingHeader" />
